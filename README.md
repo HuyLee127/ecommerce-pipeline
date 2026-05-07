@@ -34,6 +34,7 @@ This project implements a data cleaning and processing pipeline for e-commerce o
 | Version Control | Git, GitHub |
 
 ## Project Structure
+
 ```
 ecommerce-pipeline/
 ├── data/
@@ -48,6 +49,7 @@ ecommerce-pipeline/
 ├── requirements.txt
 └── README.md
 ```
+
 ## Setup
 
 ### Prerequisites
@@ -79,11 +81,13 @@ python src/clean_orders.py
 ```
 
 Expected output:
+
 ```
-order_id order_date    amount
+  order_id order_date    amount
 0    SP001 2026-01-15    150000
 1    SP002 2026-01-16    250000
 ```
+
 ## Development Workflow
 
 This project follows industry-standard Git workflow:
