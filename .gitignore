@@ -1,0 +1,29 @@
+# Sensitive files
+.env
+*.key
+credentials.json
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# Data files (giữ thư mục, ignore file data lớn)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+*.parquet
+
+# Logs (giữ thư mục, ignore file log)
+logs/*
+!logs/.gitkeep
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
